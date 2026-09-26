@@ -1,18 +1,4 @@
-"""
-main.py
--------
-Command-line entry point for the GenAI Document Assistant.
 
-Usage:
-    python main.py ingest  --docs data/sample_docs [--mock]
-    python main.py ask     --question "What does the warranty cover?" [--mock]
-    python main.py evaluate --question "..." [--mock]
-    python main.py demo    [--mock]      # ingest + ask + evaluate in one go
-
---mock runs the entire pipeline offline (see src/mock_clients.py) so you
-can demo it live in an interview without needing provisioned Azure
-resources or paying for API calls.
-"""
 from __future__ import annotations
 
 import argparse
