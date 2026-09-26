@@ -1,0 +1,7 @@
+.env
+.mock_index.json
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
